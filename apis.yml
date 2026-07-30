@@ -1,8 +1,26 @@
 aid: mintifi
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mintifi.png
 name: Mintifi
-description: 'Mintifi is a company surfaced as a portfolio company of norwest-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Mintifi is an Indian supply-chain financing platform that provides inventory
+  and working-capital financing to SMEs, distributors, and dealers across manufacturer
+  distribution networks. Its products include checkout and inventory financing, an
+  Electronic Invoice Presentment and Payment (EIPP) solution for ERP-integrated invoice
+  settlement and reconciliation, WhatsApp-based inventory financing, and Mintifi Collect
+  for payment collection with Tally integration. The company exposes ERP-integration
+  APIs to partners and is backed by Norwest Venture Partners. No public developer portal,
+  OpenAPI, or self-serve API documentation is currently published; the docs host is
+  access-gated.'
 url: https://raw.githubusercontent.com/api-evangelist/mintifi/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
-- Unknown
+- Financial Services
+- Lending
+- Supply Chain Finance
+- Fintech
+- SME
+- Payments
+- India
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +47,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/mintifi-domain-security.yml
 - type: Website
   url: https://mintifi.com
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
