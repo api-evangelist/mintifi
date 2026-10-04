@@ -44,11 +44,11 @@ created: '2026-07-17'
 modified: '2026-07-20'
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Lending
 - Supply Chain Finance
 - Fintech
-- SME
+- Small Business
 - Payments
 - India
 tags_raw:
@@ -60,6 +60,7 @@ tags_raw:
 - SME
 - Payments
 - India
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
